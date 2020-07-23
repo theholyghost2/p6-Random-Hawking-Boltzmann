@@ -16,7 +16,7 @@ class HawkingBoltzmannRandom::BoltzmannFunction
 		$!kB = 1.380649 * 10 ** -23;
 	       	$!Q = $q;	
 
-		$!T = 1.227 * 10,*  -23; ### default hawking temperature
+		$!T = 1.227 * 10 *  -23; ### default hawking temperature
 	}
 
 	method rand($solarmass) { ### solar mass is a parameter for Hawking temperature
