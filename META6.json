@@ -1,0 +1,22 @@
+{
+        "perl" : "6.c",
+        "name" : "Random::Hawking::Boltzmann",
+        "auth" : "CPAN:HOLYGHOST",
+        "api" : "1",
+        "version" : "0.1.1",
+        "description" : "Random Number Function based on a Boltzmann Function",
+        "authors" : [ "The Holy Ghost" ],
+        "license" : "General Public License 3, Artistic-2.0",
+        "provides" : {
+            "Random::Hawking::Boltzmann::HawkingTemperature" : "lib/Random/Hawking/Boltzmann/HawkingTemperature.pm6",
+            "Random::Hawking::Boltzmann::HawkingTemperature" : "lib/Random/Hawking/Boltzmann/BoltzmannFunction.pm6"
+        },
+        "depends" : [ ],
+        "build-depends" : [ ],
+        "test-depends" : [ ],
+        "resources" : [ ],
+        "tags": [
+          "Random", "Hawking", "Boltzmann"
+        ],
+        "source-url" : "http://cpan.metacpan.org/authors/id/H/HO/HOLYGHOST/Perl6/p6-Random-Hawking-Boltzmann-0.1.1.tar.gz"
+    }

@@ -1,0 +1,16 @@
+=begin pod 
+
+=NAME    Random::Hawking::Boltzmann
+=AUTHOR  The Holy Ghost 
+=VERSION 0.1
+
+=head1 BoltzmannFunction.pm6
+
+Use BoltzmannFunction::rand($solarmass) for generating a random floating point
+number.
+
+=head2 HawkingTemperature.pm6 
+
+This class calculates a Hawking Temperature
+
+=end pod
