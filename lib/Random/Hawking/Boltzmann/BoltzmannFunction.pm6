@@ -22,7 +22,7 @@ class HawkingBoltzmannRandom::BoltzmannFunction
 	method rand($solarmass) { ### solar mass is a parameter for Hawking temperature
 		return (self.energy-probability(
 				HawkingBoltzmannRandom::HawkingTemperature.Temperature($solarmass),
-				1 / Int.rand)); 
+				1 / int64.Range.rand)); 
 	}
 
 	method energy-probability($t, $epsilon = 0.5) { ### epsilon is energy of a state
